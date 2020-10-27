@@ -61,12 +61,12 @@ keyword-filter-type = none
 keyword-filter = (null)
 
 [Proxy]
-gzz🇭🇰 = trojan, www.ckxcky37.xyz, 443, password=gzz18068261663
-v2ray = vmess, 47.242.39.162, 12345, username=d9dc6057-b9fa-4cfc-8340-0f3184d324ae
-trojan = trojan, www.ckxcky37.xyz, 443, password=Aa112211
+#内容自己改=协议，ip，端口，密码
+v2ray = vmess, 12.123.12.123, 12345, username=d9dc1234-b9fa-4cfc-1234-0f1234d234ae
+trojan = trojan, www.xxxx.com, 123, password=xxxx
 
 [Proxy Group]
-PROXY = select, v2ray, trojan, gzz🇭🇰, DIRECT
+PROXY = select, v2ray, trojan, DIRECT
 ChinaMedia = select, DIRECT, PROXY
 GlobalMedia = select, PROXY, DIRECT
 Telegram = select, PROXY, DIRECT
